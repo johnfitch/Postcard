@@ -90,6 +90,15 @@
                                     <rect key="frame" x="16" y="84" width="361" height="57"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nameLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANo-Mo-lAy">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="158" width="174" height="21"/>
+                                </variation>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYi-or-g5H">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.55874122080961597" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -112,6 +121,7 @@
                                 <exclude reference="PlL-CK-b5u"/>
                                 <exclude reference="Hed-pl-P0f"/>
                                 <exclude reference="kXR-rj-248"/>
+                                <exclude reference="ANo-Mo-lAy"/>
                                 <exclude reference="AYi-or-g5H"/>
                             </mask>
                         </variation>
@@ -121,6 +131,7 @@
                                 <include reference="PlL-CK-b5u"/>
                                 <include reference="Hed-pl-P0f"/>
                                 <include reference="kXR-rj-248"/>
+                                <include reference="ANo-Mo-lAy"/>
                                 <include reference="AYi-or-g5H"/>
                             </mask>
                         </variation>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="PlL-CK-b5u" id="Pdf-Vt-CLA"/>
                         <outlet property="mailButton" destination="AYi-or-g5H" id="EW2-5k-bKf"/>
                         <outlet property="messageLabel" destination="kXR-rj-248" id="UeM-uI-116"/>
+                        <outlet property="nameLabel" destination="ANo-Mo-lAy" id="27I-HM-QPl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
